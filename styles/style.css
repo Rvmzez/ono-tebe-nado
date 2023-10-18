@@ -60,6 +60,7 @@
     display: flex;
     flex-direction: column;
     background-image: url(../images/cover.jpg);
+    background-position: center;
     background-size: cover;
     padding-top: 165px;
     padding-right: 50px;
@@ -101,6 +102,7 @@
 
 .aligned-text_right {
     text-align: right;
+    margin-top: -10px;
 }
 
 .no-letter-spacing {
@@ -108,13 +110,13 @@
 }
 
 .letter-spacing-extended_other {
-    letter-spacing: 18px;
+    letter-spacing: 60px;
 }
 
 .cover__description {
     display: flex;
     justify-content: right;
-    padding-top: 120px;
+    padding-top: 130px;
     gap: 78px;
     color: #FFF;
     font-size: 22px;
@@ -174,7 +176,8 @@
 .lots__card-list-item {
     position: relative;
     flex-basis: 430px;
-    max-width: 430px;
+    width: 430px;
+    flex-grow: 1;
     min-height: 450px;
     margin-bottom: 30px;
     background-size: cover;
